@@ -30,6 +30,16 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/blog', 'BlogController::index'); // Route to display all articles
+$routes->get('/blog/view/(:num)', 'BlogController::view/$1'); // Route to view a specific article
+
+$routes->get('/blog/create', 'BlogController::create');
+$routes->post('/blog/store', 'BlogController::store');
+$routes->post('/blog/update/(:num)', 'BlogController::update/$1');
+
+$routes->get('/blog/(:segment)', 'BlogController::showArticle/$1');
+$routes->get('blog/delete/(:num)', 'BlogController::delete/$1', ['as' => 'blog-delete']);
+
 
 /*
  * --------------------------------------------------------------------
