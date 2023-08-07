@@ -1,0 +1,24 @@
+CRITICAL - 2023-08-07 07:18:51 --> Class 'Image' not found
+in APPPATH\Controllers\BlogController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 07:19:47 --> Class 'Image' not found
+in APPPATH\Controllers\BlogController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 07:21:12 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$path
+in APPPATH\Controllers\BlogController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 07:30:54 --> Call to undefined method CodeIgniter\Validation\Validation::image()
+in APPPATH\Controllers\BlogController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
